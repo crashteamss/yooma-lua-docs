@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: yooma Lua API
+  structure:
+    - type: space
+      key: lua-api
+      title: Lua API
+      path: lua
+      default: true
+      content:
+        directory: ./docs
+        language: ru

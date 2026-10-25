@@ -2,11 +2,30 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: yooma Lua API
   structure:
-    - type: space
-      key: lua-api
-      title: Lua API
-      path: lua
+    - type: section
+      key: section-1
+      title: yooma Lua API
+      path: yooma-lua-api
       default: true
-      content:
-        directory: ./docs
-        language: ru
+      children:
+        - type: space
+          key: lua-api
+          title: Lua API
+          path: lua
+          default: true
+          content:
+            directory: ./docs
+            language: ru
+    - type: section
+      key: section-2
+      title: Kotlin API
+      path: kotlin-api
+      icon: code
+      children:
+        - type: space
+          key: space-1
+          title: Kotlin API
+          path: kotlin-api
+          default: true
+          content:
+            directory: ./kotlin-api
